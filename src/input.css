@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.handburger {
+  width: 25px;
+  height: 15px;
+  /* background-color: red; */
+}
+.hand1,
+.hand2,
+.hand3 {
+  width: 25px;
+  height: 1.5px;
+  background-color: white;
+}
+.hand2 {
+  transform: translateY(7px);
+}
+.hand3 {
+  transform: translateY(14px);
+}
+.close {
+  transition: all 0.5s ease-in-out;
+  display: none;
+}
+.small {
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.opt:hover {
+  background-color: white;
+  color: rgb(107, 90, 90);
+  transition: all 0.5s ease-in-out;
+}
+.line {
+  width: 0.2px;
+}
+
+.swiper .swiper-pagination-bullet {
+  background-color: #39b54a;
+}
+input::placeholder {
+  color: #4d4a44;
+}
+textarea::placeholder {
+  color: #4d4a44;
+}
+.hiddenManual {
+  display: none;
+}
+.nav {
+  z-index: 1000;
+}
+.up {
+  z-index: 2000;
+}
