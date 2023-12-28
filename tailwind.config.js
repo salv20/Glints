@@ -13,7 +13,6 @@ module.exports = {
       vd: "1183px",
       lg: "1330px",
       xl: "1440px",
-      // lg: "1295px",
     },
     extend: {
       margin: {
